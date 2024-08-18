@@ -15,96 +15,102 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="GDc-jJ-94G" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qxl-Ui-lV2">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="standardAppearance">
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="selectionIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tabBarAppearance>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Kgm-bx-xCD"/>
                         <segue destination="U5L-xb-9ys" kind="relationship" relationship="viewControllers" id="7U5-WC-c1o"/>
                         <segue destination="72O-s5-yAb" kind="relationship" relationship="viewControllers" id="PVH-Q7-c0x"/>
-                        <segue destination="XeF-M2-CCn" kind="relationship" relationship="viewControllers" id="GRb-JI-zOt"/>
-                        <segue destination="b2A-Xp-v0C" kind="relationship" relationship="viewControllers" id="Vrj-PM-QPv"/>
+                        <segue destination="b2A-Xp-v0C" kind="relationship" relationship="viewControllers" id="MYV-WQ-EgV"/>
+                        <segue destination="XeF-M2-CCn" kind="relationship" relationship="viewControllers" id="aB9-Wm-amq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HVY-yP-Wtb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="821" y="-420"/>
         </scene>
-        <!--Item-->
+        <!--스냅-->
         <scene sceneID="ByG-X5-XS0">
             <objects>
-                <viewController id="U5L-xb-9ys" customClass="ViewController" customModule="MushinsaClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="U5L-xb-9ys" customClass="SnapViewController" customModule="MushinsaClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ucI-O0-DOk">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="isg-ls-lEX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="vbr-yd-i1f"/>
+                    <tabBarItem key="tabBarItem" title="스냅" image="camera.metering.partial" catalog="system" selectedImage="camera.metering.partial" id="vbr-yd-i1f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MPy-4e-Rsa" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-326" y="385"/>
         </scene>
-        <!--Item-->
+        <!--홈-->
         <scene sceneID="gIM-Bk-rFc">
             <objects>
-                <viewController id="72O-s5-yAb" customClass="ViewController" customModule="MushinsaClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="72O-s5-yAb" customClass="HomeViewController" customModule="MushinsaClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t7i-Kh-BFV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Xkw-VV-vDz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="g6j-f1-dSQ"/>
+                    <tabBarItem key="tabBarItem" title="홈" image="house" catalog="system" selectedImage="house" id="g6j-f1-dSQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zzg-R2-W5b" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="821" y="411"/>
         </scene>
-        <!--Item-->
+        <!--좋아요-->
         <scene sceneID="VjQ-uW-x4h">
             <objects>
-                <viewController id="b2A-Xp-v0C" customClass="ViewController" customModule="MushinsaClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="b2A-Xp-v0C" customClass="LikeViewController" customModule="MushinsaClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f7B-JV-6QL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="c2A-dG-DIJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="oNA-8g-khv"/>
+                    <tabBarItem key="tabBarItem" title="좋아요" image="heart" catalog="system" selectedImage="heart" id="oNA-8g-khv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3xw-QV-3Il" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2883" y="411"/>
+            <point key="canvasLocation" x="1840" y="421"/>
         </scene>
-        <!--Item-->
+        <!--마이-->
         <scene sceneID="elg-J9-qQB">
             <objects>
-                <viewController id="XeF-M2-CCn" customClass="ViewController" customModule="MushinsaClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XeF-M2-CCn" customClass="MypageViewController" customModule="MushinsaClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AQE-nP-DYG">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="cpH-4n-U0E"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="a9C-BJ-GAM"/>
+                    <tabBarItem key="tabBarItem" title="마이" image="person" catalog="system" selectedImage="person" id="a9C-BJ-GAM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WHF-YH-mJB" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1844" y="411"/>
+            <point key="canvasLocation" x="2767" y="411"/>
         </scene>
-        <!--Item-->
+        <!--카테고리-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MushinsaClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CategoryViewController" customModule="MushinsaClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="fut-Lq-Edd"/>
+                    <tabBarItem key="tabBarItem" title="카테고리" image="doc.text.magnifyingglass" catalog="system" selectedImage="doc.text.magnifyingglass" id="fut-Lq-Edd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,6 +118,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera.metering.partial" catalog="system" width="128" height="93"/>
+        <image name="doc.text.magnifyingglass" catalog="system" width="110" height="128"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="person" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
